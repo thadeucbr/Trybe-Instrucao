@@ -1,0 +1,20 @@
+{
+  "name": "valida-joi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/thadeucbr/valida-joi.git",
+  "author": "Thadeu Castelo Branco Ramos <thadeucbr@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "docker-compose up",
+    "nodemon": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,5 @@
+FROM node:16
+WORKDIR /server
+COPY . .
+CMD npm install
+EXPOSE 3333
